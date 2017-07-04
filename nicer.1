@@ -1,0 +1,19 @@
+.TH NICER 1 "Jul 2017" "nicer" "User Commands"
+.SH "NAME"
+nicer \- run a program with an altered priority
+.SH "SYNOPSIS"
+.B nicer
+[options] \<command\> [args...]
+.SH DESCRIPTION
+.B nicer
+runs a program with an altered priority.
+.SH OPTIONS
+.TP
+\fB\-n\fP \fIN\fR, \fB\-\-increment\fP=\fIN\fR
+Priority increment.
+A negative value means higher priority.
+Defaults to \fB10\fR.
+.SH "SEE ALSO"
+.BR nice (1)
+.SH AUTHORS
+Latchezar Tzvetkoff <latchezar[nospam]tzvetkoff.net> - porting the code.
